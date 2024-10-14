@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Payment</h1>
+    <form name="paymentForm" onsubmit="return validatePayment()">
+        Card Number: <br><input type="text" name="cardNumber" placeholder="Enter Card Number" required><br><br>
+        Expiry Date: <br><input type="month" name="expiryDate" required><br><br>
+        CVV: <br><input type="password" name="cvv" maxlength="3" required><br><br>
+        <input type="submit" value="Submit Payment">
+    </form>
+    <footer>
+        <p>&copy; 2024 Book Haven. Developed by Divya Pondugula. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

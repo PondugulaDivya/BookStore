@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Purchase Books</h1>
+    <form name="purchaseForm" onsubmit="return validatePurchase()">
+        Book Title: <br><input type="text" name="bookTitle" placeholder="Enter Book Title" required><br><br>
+        Quantity: <br><input type="number" name="quantity" min="1" required><br><br>
+        <input type="submit" value="Add to Cart">
+    </form>
+    <footer>
+        <p>&copy; 2024 Book Haven. Developed by Divya Pondugula. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
